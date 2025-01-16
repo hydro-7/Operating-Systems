@@ -19,12 +19,19 @@ In this Lab, we write programs on the XV6 Operating System (which is a re-implem
       - By default, this installs the Ubuntu distro for WSL
       - Follow the steps being prompted and fill a valid username & password
       - After WSL installation, the system needs to be rebooted
+        
   2) Run the Windows Subsystem using ```$ wsl```
-  3) Run ```$ sudo apt update``` to update the list of available packages and their versions on a Linux system
+
+  3) Run ```$ sudo apt update``` to update the list of available packages and their versions on a Linux system|
+
   4) Run ```$ sudo apt upgrade``` to download and install available updates for all currently installed packages on your system
+
   5) Run ```$ sudo apt install git build-essential qemu-system``` to make XV6
+
   6) Clone the XV6 repo for installation using ```$ git clone https://github.com/mit-pdos/xv6-public```
+
   7) Enter the xv6-public repository using ```$ cd xv6-public```
+
   8) Finally to run XV6 using ```$ make qemu-nox```
      - In case of errors :
        - ```$ nano Makefile```
