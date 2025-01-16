@@ -2,10 +2,10 @@
 This repository contains practical programs for the OS Lab course. Each folder contains the programs for the respective practical along with the relevant Lab details (installations, methods etc).
 
 # Table of Contents 
-- Link1
-  - Sublink 1
-  - Sublink 1 1
-  - Sublink 1 2
+- [Lab 1](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#lab-1--running-xv6-and-making-copy-cp--program-state-ps-programs)
+  - [Installation](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#installation)
+  - [cp.c](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#program-1)
+  - [ps.c]()
 - Link2
 - Link3
 
