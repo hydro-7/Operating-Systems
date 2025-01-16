@@ -9,7 +9,7 @@ This repository contains practical programs for the OS Lab course. Each folder c
 - Link2
 - Link3
 
-# Lab 1 
+# Lab 1 : Running XV6 and Making Copy (cp) & Program State (ps) programs
 
 ## Installation
 In this Lab, we write programs on the XV6 Operating System (which is a re-implementation of the UNIX OS). To do this we need to configure XV6 onto our local system. To run XV6 on Windows Systems, follow the commands :
@@ -39,6 +39,12 @@ In this Lab, we write programs on the XV6 Operating System (which is a re-implem
        - Re-run the make command
 
 ## Program 1
-Task : Implement the copy command as "cp.c" and then include it in the XV6 OS and use it to copy file contents.
+- Task : Implement the copy command as "cp.c" and then include it in the XV6 OS and use it to copy file contents.
+- Implement the cp.c program using ```$ vi cp.c```
+  - Note that regular C programming commands won't work as this is XV6. It has only a few libraries so can't use header files like <stdio.h>
+- After implementation of the C file, add it to the Makefile :
+  - ```$ nano Makefile```
+  - In the list of UPROGS, add "_cp\" under the other programs. Ensure that there is a blank line after insertion (Similar to how it was before insertion)
+  - In the list of EXTRA, add "cp.c" beside the other .c files. Ensure that the spacing is maintained
 
 # Lab 2
