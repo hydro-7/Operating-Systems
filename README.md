@@ -10,6 +10,8 @@ This repository contains practical programs for the OS Lab course. Each folder c
 - Link3
 
 # Lab 1 
+
+## Installation
 In this Lab, we write programs on the XV6 Operating System (which is a re-implementation of the UNIX OS). To do this we need to configure XV6 onto our local system. To run XV6 on Windows Systems, follow the commands :
   1) Install WSL (Windows Subsystem for Linux)
       - Open Command Prompt (Win + R > cmd)
@@ -29,5 +31,7 @@ In this Lab, we write programs on the XV6 Operating System (which is a re-implem
        - Go to line 78 and remove "-Werror" from the line
        - Re-run the make command
 
+## Program 1
+Task : Implement the copy command as "cp.c" and then include it in the XV6 OS and use it to copy file contents.
 
 # Lab 2
