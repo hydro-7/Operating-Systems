@@ -59,6 +59,15 @@ In this Lab, we write programs on the XV6 Operating System (which is a re-implem
 
 
 
+# Lab 2 : Run programs using an FCFS Scheduling Algorithm 
 
+## Introduction :
+In XV6, the default scheduling algorithm is **Round Robin**, which we will change to **FCFS** (First Come First Serve) and then compare how they execute processes using a testing file. We do this by making changes within the **proc.c** file.
 
-# Lab 2
+## Method :
+- Within the scheduler function, the for(;;) represents an infinite loop which constantly runs the prcoesses, within this acquire(&ptable.lock) gets the table of processes, using which we apply the respective scheduling algorithm.
+- Using an if else condition, make a toggle selection for selecting either Default or FCFS.
+- Within the **proc\*** structure, add the line ```$ p -> ctime = ticks``` to keep a track of the process creation time.
+- But to use the ticks counter, you need to add ```$ int ctime, etime, rtime, iotime``` to the **proc** structure in the **proc.h** file.
+- Now to test the schedulers, we make a test_FCFS file (which we add to the Makefile similar to Lab 1), which prints the pid and iteration number for that particular process.
+- Observe the difference between the FCFS & Round Robin Schedulers.
