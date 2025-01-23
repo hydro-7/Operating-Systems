@@ -71,3 +71,4 @@ In XV6, the default scheduling algorithm is **Round Robin**, which we will chang
 - But to use the ticks counter, you need to add ```$ int ctime, etime, rtime, iotime``` to the **proc** structure in the **proc.h** file.
 - Now to test the schedulers, we make a test_FCFS file (which we add to the Makefile similar to Lab 1), which prints the pid and iteration number for that particular process.
 - Observe the difference between the FCFS & Round Robin Schedulers.
+- For further ref : [Link](https://github.com/Akshat-Goyal/Customized-xv6-OS/blob/master/xv6/proc.c)
