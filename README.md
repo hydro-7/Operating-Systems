@@ -47,4 +47,18 @@ In this Lab, we write programs on the XV6 Operating System (which is a re-implem
   - In the list of UPROGS, add "_cp\" under the other programs. Ensure that there is a blank line after insertion (Similar to how it was before insertion)
   - In the list of EXTRA, add "cp.c" beside the other .c files. Ensure that the spacing is maintained
 
+ ## Program 2
+- Task : Implement the Process State command as "ps.c" and then include it in the XV6 OS and use it to view the processes running on wsl currently.
+- Follow the tutorial [Tutorial Link](https://medium.com/@harshalshree03/xv6-implementing-ps-nice-system-calls-and-priority-scheduling-b12fa10494e4).
+- Some Corrections/Improvements to the above tutorial :
+  - After opening your wsl, complete the first step and in the "proc.h" file, move down to the "proc" structure and add ```int priority``` to a new line in it.
+  - In one of the steps in the tutorial it says "users.h", but it is "user.h"
+- On completing the tutorial, run ```$ make qemu-nox``` to run XV6.
+- Within it, run the ```$ ps``` command, it should give you a result similar to this :
+  ![WhatsApp Image 2025-01-23 at 14 44 49_b76d97c1](https://github.com/user-attachments/assets/884c86c6-56ac-479f-bac9-3203ba23ce38)
+
+
+
+
+
 # Lab 2
