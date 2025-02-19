@@ -10,7 +10,7 @@ This repository contains practical programs for the OS Lab course. Each folder c
   - [Introduction](https://github.com/hydro-7/Operating-Systems?tab=readme-ov-file#introduction-)
   - [Method](https://github.com/hydro-7/Operating-Systems?tab=readme-ov-file#method-)
 - [Lab 3](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#lab-3--implement-scheduling-algorithms-in-c)
-  - [Introduction]()
+  - [Task]()
 
 
 # Lab 1 : Running XV6 and Making Copy (cp) & Program State (ps) programs
@@ -80,5 +80,5 @@ In XV6, the default scheduling algorithm is **Round Robin**, which we will chang
 
 # Lab 3 : Implement Scheduling Algorithms in C 
 
-## Introduction : 
+## Task : 
 We need to implement the following Non - Premptive Scheduling Algorithms : **FCFS** (First Come First Serve), **SJF** (Shortest Job First), **LJF** (Longest Job First), **HRRN** (Highest Response Ratio Next).
