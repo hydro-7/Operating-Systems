@@ -9,7 +9,9 @@ This repository contains practical programs for the OS Lab course. Each folder c
 - [Lab 2](https://github.com/hydro-7/Operating-Systems?tab=readme-ov-file#lab-2--run-programs-using-an-fcfs-scheduling-algorithm)
   - [Introduction](https://github.com/hydro-7/Operating-Systems?tab=readme-ov-file#introduction-)
   - [Method](https://github.com/hydro-7/Operating-Systems?tab=readme-ov-file#method-)
-- Link3
+- [Lab 3](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#lab-3--implement-scheduling-algorithms-in-c)
+  - [Introduction]()
+
 
 # Lab 1 : Running XV6 and Making Copy (cp) & Program State (ps) programs
 
