@@ -74,3 +74,9 @@ In XV6, the default scheduling algorithm is **Round Robin**, which we will chang
 - Now to test the schedulers, we make a test_FCFS file (which we add to the Makefile similar to Lab 1), which prints the pid and iteration number for that particular process.
 - Observe the difference between the FCFS & Round Robin Schedulers.
 - For further ref : [Link](https://github.com/Akshat-Goyal/Customized-xv6-OS/blob/master/xv6/proc.c)
+
+
+# Lab 3 : Implement Scheduling Algorithms in C 
+
+## Introduction : 
+We need to implement the following Non - Premptive Scheduling Algorithms : **FCFS** (First Come First Serve), **SJF** (Shortest Job First), **LJF** (Longest Job First), **HRRN** (Highest Response Ratio Next).
