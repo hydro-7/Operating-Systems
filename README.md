@@ -78,7 +78,12 @@ In XV6, the default scheduling algorithm is **Round Robin**, which we will chang
 - For further ref : [Link](https://github.com/Akshat-Goyal/Customized-xv6-OS/blob/master/xv6/proc.c)
 
 
-# Lab 3 : Implement Scheduling Algorithms in C 
+# Lab 3 : Implement Scheduling Algorithms in C (Non - Preemptive)
 
 ## Task : 
-We need to implement the following Non - Premptive Scheduling Algorithms : **FCFS** (First Come First Serve), **SJF** (Shortest Job First), **LJF** (Longest Job First), **HRRN** (Highest Response Ratio Next).
+We need to implement the following Non - Preemptive Scheduling Algorithms : **FCFS** (First Come First Serve), **SJF** (Shortest Job First), **LJF** (Longest Job First), **HRRN** (Highest Response Ratio Next).
+
+# Lab 4 : Implement Scheduling Algorithms in C (Preemptive)
+
+## Task : 
+We need to implement the following Preemptive Scheduling Scheduling Algorithms : **RR** (Round Robin), **PS** (Priority Scheduling), **SRTF** (Shortest Remaining Time First), **LRTF** (Longest Remaining Time First)
