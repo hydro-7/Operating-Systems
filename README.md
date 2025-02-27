@@ -11,6 +11,8 @@ This repository contains practical programs for the OS Lab course. Each folder c
   - [Method](https://github.com/hydro-7/Operating-Systems?tab=readme-ov-file#method-)
 - [Lab 3](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#lab-3--implement-scheduling-algorithms-in-c)
   - [Task](https://github.com/hydro-7/Operating-Systems?tab=readme-ov-file#task-)
+- [Lab 4](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#lab-4--implement-scheduling-algorithms-in-c-preemptive)
+  - [Task](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#task--1)
 
 
 # Lab 1 : Running XV6 and Making Copy (cp) & Program State (ps) programs
