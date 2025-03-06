@@ -89,3 +89,17 @@ We need to implement the following Non - Preemptive Scheduling Algorithms : **FC
 
 ## Task : 
 We need to implement the following Preemptive Scheduling Scheduling Algorithms : **RR** (Round Robin), **PS** (Priority Scheduling), **SRTF** (Shortest Remaining Time First), **LRTF** (Longest Remaining Time First)
+
+# Lab 5 : Implement Shared Memory for Producer Consumer problem 
+
+## Introduction : 
+There are two fundamental models of interprocess communication : i) Shared Memory Syetms ii) Message Passing. 
+
+In the shared memory model, a region of memory that is shared by cooperating processes is established. Processes can then exchange information by reading and writing data to the shared region.
+
+The process which wishes to communicate creates the shared memory segment within its memory and and process that wishes to recieve information from it attaches the memory to it's address space. Here, one common example where this shared memory is used is the Producer and Consumer problem. 
+
+To allow the producer and consumer processes to run concurrently, we must have a buffer that can be filled by the producer and emptied by the consumer. In general, these buffers can be classified into two types : i) Unbounded Buffer ii) Bounded Buffer
+
+The unbounded buffer has no limit on the buffer size, which means the producer can endlessly produce items. The bounded buffer has a finite limit on the size such that the producer must wait for consumption before pushing if the buffer is full.
+
