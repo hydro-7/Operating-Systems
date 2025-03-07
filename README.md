@@ -103,3 +103,5 @@ To allow the producer and consumer processes to run concurrently, we must have a
 
 The unbounded buffer has no limit on the buffer size, which means the producer can endlessly produce items. The bounded buffer has a finite limit on the size such that the producer must wait for consumption before pushing if the buffer is full.
 
+## Task : 
+We use the shm_open function to create a shared memory using the producer and then add messages to it. The consumer process will be responsible for reading those message from the shared memeory and displaying them to the user.
