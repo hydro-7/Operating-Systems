@@ -14,8 +14,11 @@ This repository contains practical programs for the OS Lab course. Each folder c
 - [Lab 4](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#lab-4--implement-scheduling-algorithms-in-c-preemptive)
   - [Task](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#task--1)
 - [Lab 5](https://github.com/hydro-7/Operating-Systems/tree/main?tab=readme-ov-file#lab-5--implement-shared-memory-for-producer-consumer-problem)
+  - [Introduction](https://github.com/hydro-7/Operating-Systems/tree/main?tab=readme-ov-file#introduction--1)
   - [Task](https://github.com/hydro-7/Operating-Systems/tree/main?tab=readme-ov-file#task--2)
-- [Lab 6]()
+- [Lab 6](https://github.com/hydro-7/Operating-Systems/tree/main?tab=readme-ov-file#lab-6--implement-the-bankers-algorithm-safe--unsafe)
+  - [Introduction](https://github.com/hydro-7/Operating-Systems/tree/main?tab=readme-ov-file#introduction--2)
+  - [Task](https://github.com/hydro-7/Operating-Systems/tree/main?tab=readme-ov-file#task--3)
 
 # Lab 1 : Running XV6 and Making Copy (cp) & Program State (ps) programs
 
