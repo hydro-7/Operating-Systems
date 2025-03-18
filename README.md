@@ -13,7 +13,9 @@ This repository contains practical programs for the OS Lab course. Each folder c
   - [Task](https://github.com/hydro-7/Operating-Systems?tab=readme-ov-file#task-)
 - [Lab 4](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#lab-4--implement-scheduling-algorithms-in-c-preemptive)
   - [Task](https://github.com/hydro-7/Operating-Systems/blob/main/README.md#task--1)
-
+- [Lab 5](https://github.com/hydro-7/Operating-Systems/tree/main?tab=readme-ov-file#lab-5--implement-shared-memory-for-producer-consumer-problem)
+  - [Task](https://github.com/hydro-7/Operating-Systems/tree/main?tab=readme-ov-file#task--2)
+- [Lab 6]()
 
 # Lab 1 : Running XV6 and Making Copy (cp) & Program State (ps) programs
 
@@ -104,8 +106,14 @@ To allow the producer and consumer processes to run concurrently, we must have a
 The unbounded buffer has no limit on the buffer size, which means the producer can endlessly produce items. The bounded buffer has a finite limit on the size such that the producer must wait for consumption before pushing if the buffer is full.
 
 ## Task : 
-We use the shm_open function to create a shared memory using the producer and then add messages to it. The consumer process will be responsible for reading those message from the shared memeory and displaying them to the user.
+We use the shm_open function to create a shared memory using the producer and then add messages to it. The consumer process will be responsible for reading those message from the shared memeory and displaying them to the user.\
 Alternatively, we can also use threads to recreate the producer consumer scenario. To do this :
 - Create a buffer that can be accessed by both producer & consumer. Also initialize two semaphores indicating if the buffer is full or empty. Use pthread_mutex to have mutual exculsion between the threads.
 - The producers add items to the buffer by iterating upto the MAX (given value) and the consumers consume the same and add these values to the final sum (t_sum).
 - To change the number of producers / consumers, we create the consumer and producer threads accordingly and then alter the value of MAX in both consumer and producer function loops accordingly. (MAX / c, MAX / p)
+
+# Lab 6 : Implement the Banker's Algorithm (Safe / Unsafe)
+
+## Introduction :
+
+## Task : 
