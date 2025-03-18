@@ -105,3 +105,7 @@ The unbounded buffer has no limit on the buffer size, which means the producer c
 
 ## Task : 
 We use the shm_open function to create a shared memory using the producer and then add messages to it. The consumer process will be responsible for reading those message from the shared memeory and displaying them to the user.
+Alternatively, we can also use threads to recreate the producer consumer scenario. To do this :
+- Create a buffer that can be accessed by both producer & consumer. Also initialize two semaphores indicating if the buffer is full or empty. Use pthread_mutex to have mutual exculsion between the threads.
+- The producers add items to the buffer by iterating upto the MAX (given value) and the consumers consume the same and add these values to the final sum (t_sum).
+- To change the number of producers / consumers, we create the consumer and producer threads accordingly and then alter the value of MAX in both consumer and producer function loops accordingly. (MAX / c, MAX / p)
