@@ -118,5 +118,12 @@ Alternatively, we can also use threads to recreate the producer consumer scenari
 # Lab 6 : Implement the Banker's Algorithm (Safe / Unsafe)
 
 ## Introduction :
+As we know, systems often face deadlocks. The banker's algorithm is a way to check whether a deadlock would occur if resource allocation is done. This is a very common deadlock prevention algorithm and is also known as the safety algorithm. 
 
+This can also be modified to a resource request algorithm, where the algorithm can check if a certain algorithm would result in a system deadlock. The only change would be : 
+- i) Available -= Request
+- ii) Allocation += Request
+- iii) Need -= Request
+  
 ## Task : 
+I implemented the banker's safety algorithm which takes an input of i) Current Allocation ii) Max Allocation iii) Available. Using these it calculates an array of need arrays. The algorithm goes and compares the availability with the need for each process and then if a valid sequence of processes can be formed, the system is deemed to be Safe or Deadlock Free. If not, it is deemed Unsafe, or a system with deadlock.
